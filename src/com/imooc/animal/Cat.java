@@ -13,9 +13,11 @@ public class Cat {
 	private int month;//年龄  默认值为 0
 	private double weight;//体重 默认值为0.0
 	private String speices;//品种 默认值为null
+	//表示一个静态的 静态成员 类成员
+	public static int price;//价格
 	
 	public Cat(){
-		//System.out.println("不带参数的构造方法");
+		System.out.println("我是宠物猫~~");
 	}
 	
 	public Cat(int month){
